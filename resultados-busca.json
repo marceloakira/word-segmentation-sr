@@ -2,26 +2,34 @@
 	"description": "systematic review on compound splitting for preprocessing in NLP",
 	"keys": {
 		"A": [
-			"separação de palavras compostas",
 			"compound splitting",
-			"compounding split",
 			"compound splitters",
 			"identifier splitting",
-			"natural language preprocessing"
+			"natural language processing",
+			"NLP",
+			"separação de palavras compostas",
+			"processamento de linguagem natural",
+			"PLN"
 		],
 		"A1": [
-			"natural language preprocessing",
+			"compound splitting",
+			"identifier splitting",
 			"compound splitters"
 		],
 		"A2": [
-			"compounding split",
 			"compound splitting",
 			"identifier splitting"
 		],
 		"A3": [
-			"compound splitters",
-			"compound splitting",
-			"identifier splitting"
+			"natural language processing",
+			"NLP"
+		],
+		"A4": [
+			"separação de palavras compostas"
+		],
+		"A5": [
+			"processamento de linguagem natural",
+			"PLN"
 		],
 		"C": [
 			"systematic review",
@@ -50,20 +58,12 @@
 			"url": "http://scholar.google.com",
 
 			"S0": {
-				"input": "A2 R2 R3 R4 R5 R6",
-				"filters": ["F1" ],
-				"date of search": "2019-08-19",
-				"number of results": 511,
-				"url": "https://scholar.google.com.br/scholar?hl=pt-BR&as_sdt=0%2C5&as_ylo=2014&as_yhi=2019&as_vis=1&q=%28+%22compounding+split%22+OR+%22compound+splitting%22+OR+%22identifier+splitting%22%29+-education+-chemistry+-gear+-biomedical&btnG=",
-				"search string": "( \"compounding split\" OR \"compound splitting\" OR \"identifier splitting\") -education -chemistry -gear -mechanical -biomedical"
-			},
-			"S1": {
-				"input": "A1 A2 R2 R3 R4 R5",
+				"input": "A2 ",
 				"filters": [ ],
-				"date of search": "2019-08-19",
-				"number of results": 35,
-				"url": "https://scholar.google.com.br/scholar?start=0&q=(+%22natural+language+preprocessing%22+OR+%22compound+splitters%22)+AND+(+%22compounding+split%22+OR+%22compound+splitting%22+OR+%22identifier+splitting%22)+-education+-chemistry+-gear+-mechanical&hl=pt-BR&as_sdt=0,5&as_vis=1",
-				"search string": "( \"natural language preprocessing\" OR \"compound splitters\") AND ( \"compounding split\" OR \"compound splitting\" OR \"identifier splitting\") -education -chemistry -gear -mechanical"
+				"date of search": "A qualquer momento",
+				"number of results": 1680,
+				"url": "https://scholar.google.com.br/scholar?q=(+%22compound+splitting%22+OR+%22identifier+splitting%22)&hl=pt-BR&as_sdt=0,5",
+				"search string": "( \"compounding split\" OR \"compound splitting\" OR \"identifier splitting\") -education -chemistry -gear -mechanical -biomedical"
 			}
 		},
 		{
