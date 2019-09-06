@@ -1,0 +1,123 @@
+{
+	"description": "systematic review on compound splitting for preprocessing in NLP",
+	"keys": {
+		"A": [
+			"separação de palavras compostas",
+			"compound splitting",
+			"compounding split",
+			"compound splitters",
+			"identifier splitting",
+			"natural language preprocessing"
+		],
+		"A1": [
+			"natural language preprocessing",
+			"compound splitters"
+		],
+		"A2": [
+			"compounding split",
+			"compound splitting",
+			"identifier splitting"
+		],
+		"A3": [
+			"compound splitters",
+			"compound splitting",
+			"identifier splitting"
+		],
+		"C": [
+			"systematic review",
+			"survey"
+		]
+	},
+	"restrictions": {
+		"R1": "-philosophical",
+		"R2": "-education",
+		"R3": "-chemistry",
+		"R4": "-gear",
+		"R5": "-mechanical",
+		"R6": "-biomedical"
+	},
+	"filters": {
+		"F1": "published from 2014 to 2019",
+		"F2": "publication type: review",
+		"F3": "published from 2010 to 2019",
+		"F4": "search content in english",
+		"F5": "search content in portuguese"
+	},
+	"search engines": [
+		{
+			"name": "Google Scholar",
+			"institution": "Google",
+			"url": "http://scholar.google.com",
+
+			"S0": {
+				"input": "A2 R2 R3 R4 R5 R6",
+				"filters": ["F1" ],
+				"date of search": "2019-08-19",
+				"number of results": 511,
+				"url": "https://scholar.google.com.br/scholar?hl=pt-BR&as_sdt=0%2C5&as_ylo=2014&as_yhi=2019&as_vis=1&q=%28+%22compounding+split%22+OR+%22compound+splitting%22+OR+%22identifier+splitting%22%29+-education+-chemistry+-gear+-biomedical&btnG=",
+				"search string": "( \"compounding split\" OR \"compound splitting\" OR \"identifier splitting\") -education -chemistry -gear -mechanical -biomedical"
+			},
+			"S1": {
+				"input": "A1 A2 R2 R3 R4 R5",
+				"filters": [ ],
+				"date of search": "2019-08-19",
+				"number of results": 35,
+				"url": "https://scholar.google.com.br/scholar?start=0&q=(+%22natural+language+preprocessing%22+OR+%22compound+splitters%22)+AND+(+%22compounding+split%22+OR+%22compound+splitting%22+OR+%22identifier+splitting%22)+-education+-chemistry+-gear+-mechanical&hl=pt-BR&as_sdt=0,5&as_vis=1",
+				"search string": "( \"natural language preprocessing\" OR \"compound splitters\") AND ( \"compounding split\" OR \"compound splitting\" OR \"identifier splitting\") -education -chemistry -gear -mechanical"
+			}
+		},
+		{
+			"name": "Science Direct",
+			"institution": "Elsevier",
+			"url": "https://www.sciencedirect.com/",
+			"S0": {
+			}
+		},
+		{
+			"name": "IEEE Xplore Digital Library",
+			"institution": "IEEE",
+			"url": "https://ieeexplore.ieee.org/",
+			"S0": {
+			}
+		},
+		{
+			"name": "ACM Digital Library",
+			"institution": "ACM",
+			"url": "https://dl.acm.org/",
+			"S0": {
+				
+			}
+		},
+		{
+			"name": "Scopus",
+			"institution": "Elsevier",
+			"url": "https://www.scopus.com",
+			"S0": {
+			}
+		},
+		{
+			"name": "Web of Science",
+			"institution": "Clarivate Analytics",
+			"url": "https://clarivate.com/",
+			"S0": {
+				
+			}
+		},
+		{
+			"name": "SpringerLink",
+			"institution": "Springer",
+			"url": "https://link.springer.com",
+			"S0": {
+				
+			}
+		},
+		{
+			"name": "Periódicos da CAPES",
+			"institution": "CAPES/MEC/BRAZIL",
+			"url": "http://periodicos.capes.gov.br",
+			"S0": {
+				
+			}
+		}		
+	]
+}
