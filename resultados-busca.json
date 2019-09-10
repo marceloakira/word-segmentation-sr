@@ -1,16 +1,6 @@
 {
 	"description": "systematic review on compound splitting for preprocessing in NLP",
 	"keys": {
-		"A": [
-			"compound splitting",
-			"compound splitters",
-			"identifier splitting",
-			"natural language processing",
-			"NLP",
-			"separação de palavras compostas",
-			"processamento de linguagem natural",
-			"PLN"
-		],
 		"A1": [
 			"compound splitting",
 			"identifier splitting",
@@ -25,16 +15,21 @@
 			"NLP"
 		],
 		"A4": [
-			"separação de palavras compostas"
+      "segmentação",
+      "separação",
+      "segmentação lexical",
+      "processamento de palavras compostas",
+      "análise léxica"
 		],
 		"A5": [
 			"processamento de linguagem natural",
 			"PLN"
-		],
-		"C": [
-			"systematic review",
-			"survey"
-		]
+    ],
+    "A6": [
+      "palavras compostas",
+      "palavras coladas",
+      "palavras grudadas"
+    ]
 	},
 	"restrictions": {
 		"R1": "-philosophical",
@@ -58,14 +53,21 @@
     "R19": "-urology",
     "R20": "-energy",
     "R21": "-cardiology",
-    "RX": "R7 R8 R9 R10 R11 R3 R12 R13 R14 R15 R16 R17 R18 R19 R20 R21"
+    "R22": "-clinical",
+    "R23": "-simulation",
+    "R24": "-radio",
+    "R25": "-chemical",
+    "R26": "-philosophy",
+    "R27": "-cultural",
+    "R28": "-psychology"
 	},
 	"filters": {
 		"F1": "published from 2014 to 2019",
 		"F2": "publication type: review",
 		"F3": "published from 2010 to 2019",
 		"F4": "search content in english",
-		"F5": "search content in portuguese"
+    "F5": "search content in portuguese",
+    "F6": "área de ciências da computação"
 	},
 	"search engines": [
 		{
@@ -74,12 +76,25 @@
 			"url": "http://scholar.google.com",
 
 			"S0": {
-				"input": "A2 ",
-				"filters": [ ],
+				"input": "A2",
+				"filters": [],
 				"date of search": "A qualquer momento",
 				"number of results": 1680,
 				"url": "https://scholar.google.com.br/scholar?q=(+%22compound+splitting%22+OR+%22identifier+splitting%22)&hl=pt-BR&as_sdt=0,5",
 				"search string": "( \"compounding split\" OR \"compound splitting\" OR \"identifier splitting\") -education -chemistry -gear -mechanical -biomedical"
+      }
+    },
+    {
+			"name": "Google Acadêmico",
+			"institution": "Google",
+			"url": "http://scholar.google.com.br",
+			"S0": {
+				"input": "A4 A5 A6",
+				"filters": ["F5"],
+				"date of search": "A qualquer momento",
+				"number of results": 135,
+				"url": "https://scholar.google.com.br/scholar?lr=lang_pt&q=(+%22segmenta%C3%A7%C3%A3o%22+OR+%22separa%C3%A7%C3%A3o%22+OR+%22segmenta%C3%A7%C3%A3o+lexical%22+OR+%22processamento+de+palavras+compostas%22+OR+%22an%C3%A1lise+l%C3%A9xica%22)+AND+(+%22palavras+compostas%22+OR+%22palavras+coladas%22+OR+%22palavras+grudadas%22)+AND+(+%22processamento+de+linguagem+natural%22+OR+%22PLN%22)&hl=pt-BR&as_sdt=0,5",
+				"search string": "( \"segmentação\" OR \"separação\" OR \"segmentação lexical\" OR \"processamento de palavras compostas\" OR \"análise léxica\") AND ( \"palavras compostas\" OR \"palavras coladas\" OR \"palavras grudadas\") AND ( \"processamento de linguagem natural\" OR \"PLN\")"
 			}
 		},
 		{
@@ -87,12 +102,12 @@
 			"institution": "Elsevier",
 			"url": "https://www.sciencedirect.com/",
 			"S0": {
-				"input": "A1",
+				"input": "A1 R7 R8 R9 R10 R11 R3 R12 R13 R14 R15 R16 R17 R18 R19 R20 R21",
 				"filters": [ ],
 				"date of search": "A qualquer momento",
 				"number of results": 24,
-				"url": "https://scholar.google.com.br/scholar?q=(+%22compound+splitting%22+OR+%22identifier+splitting%22)&hl=pt-BR&as_sdt=0,5",
-				"search string": "( \"compounding split\" OR \"compound splitting\" OR \"identifier splitting\") -education -chemistry -gear -mechanical -biomedical"
+				"url": "https://www.sciencedirect.com/search/advanced?qs=%22compound%20splitting%22%20OR%20%22identifier%20splitting%22%20OR%20%22compound%20splitters%22%20-engineering%20-optical%20-pharmacologic%20-pharmaceutic%20-surgery%20%20-chemistry%20-organic%20-alloy%20-biochemical%20-physics%20-molecular%20-disorders%20-medical%20-urology%20-energy%20-cardiology&show=100&sortBy=relevance",
+				"search string": "( \"compound splitting\" OR \"identifier splitting\" OR \"compound splitters\") -engineering -optical -pharmacologic -pharmaceutic -surgery -chemistry -organic -alloy -biochemical -physics -molecular -disorders -medical -urology -energy -cardiology"
       }
 		},
 		{
@@ -113,22 +128,38 @@
 			"institution": "ACM",
 			"url": "https://dl.acm.org/",
 			"S0": {
-				
+        "input": "A1",
+        "filters": [],
+        "date of search": "A qualquer momento",
+        "number of results": 43,
+        "url": "https://dl.acm.org/results.cfm?query=%28%22compound%20splitting%22%20%22compound%20splitting%22%20%22identifier%20splitting%22%29&start=40&filtered=&within=owners%2Eowner%3DGUIDE&dte=&bfr=&srt=%5Fscore",
+        "search string": "( \"compound splitting\" OR \"identifier splitting\" OR \"compound splitters\")"				
 			}
 		},
 		{
 			"name": "Scopus",
 			"institution": "Elsevier",
-			"url": "https://www.scopus.com",
+			"url": "http://www.periodicos.capes.gov.br/",
 			"S0": {
-			}
+        "input": "A1",
+        "filters": ["F6"],
+        "date of search": "A qualquer momento",
+        "number of results": 59,
+        "url": "https://www-scopus.ez49.periodicos.capes.gov.br/results/results.uri?sort=plf-f&src=s&st1=+%22compound+splitting%22+OR+%22identifier+splitting%22+OR+%22compound+splitters%22&nlo=&nlr=&nls=&sid=82a8b77f901455a5a11f11b8bccb376f&sot=b&sdt=cl&cluster=scosubjabbr%2c%22COMP%22%2ct&sl=86&s=TITLE-ABS-KEY%28+%22compound+splitting%22+OR+%22identifier+splitting%22+OR+%22compound+splitters%22%29&origin=resultslist&zone=leftSideBar&editSaveSearch=&txGid=172376128b85a6c66584346af87cb5da",
+        "search string": "TITLE-ABS-KEY ( \"compound splitting\"  OR  \"identifier splitting\"  OR  \"compound splitters\" )  AND  ( LIMIT-TO ( SUBJAREA ,  \"COMP\" ) )"				
+      }
 		},
 		{
 			"name": "Web of Science",
 			"institution": "Clarivate Analytics",
-			"url": "https://clarivate.com/",
+			"url": "http://www.periodicos.capes.gov.br/",
 			"S0": {
-				
+        "input": "A1",
+        "filters": [],
+        "date of search": "A qualquer momento",
+        "number of results": 30,
+        "url": "http://apps-webofknowledge.ez49.periodicos.capes.gov.br/summary.do?product=WOS&search_mode=GeneralSearch&qid=2&SID=8EC3G37tSx5D6ydYQZM",
+        "search string": "( \"compound splitting\" OR \"identifier splitting\" OR \"compound splitters\")"					
 			}
 		},
 		{
@@ -136,15 +167,12 @@
 			"institution": "Springer",
 			"url": "https://link.springer.com",
 			"S0": {
-				
-			}
-		},
-		{
-			"name": "Periódicos da CAPES",
-			"institution": "CAPES/MEC/BRAZIL",
-			"url": "http://periodicos.capes.gov.br",
-			"S0": {
-				
+        "input": "A1",
+        "filters": [],
+        "date of search": "A qualquer momento",
+        "number of results": 39,
+        "url": "https://link.springer.com/search?query=%28+%22compound+splitting%22+OR+%22identifier+splitting%22+OR+%22compound+splitters%22%29+-clinical+-simulation+-radio+-chemical+-engineering+-chemistry+-philosophy+-medical+-cultural+-physics+-psychology",
+        "search string": "( \"compound splitting\" OR \"identifier splitting\" OR \"compound splitters\") -clinical -simulation -radio -chemical -engineering -chemistry -philosophy -medical -cultural -physics -psychology"								
 			}
 		}		
 	]
