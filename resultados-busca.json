@@ -42,7 +42,23 @@
 		"R3": "-chemistry",
 		"R4": "-gear",
 		"R5": "-mechanical",
-		"R6": "-biomedical"
+    "R6": "-biomedical",
+    "R7": "-engineering",
+    "R8": "-optical",
+    "R9": "-pharmacologic",
+    "R10": "-pharmaceutic",
+    "R11": "-surgery",
+    "R12": "-organic",
+    "R13": "-alloy",
+    "R14": "-biochemical",
+    "R15": "-physics",
+    "R16": "-molecular",
+    "R17": "-disorders",
+    "R18": "-medical",
+    "R19": "-urology",
+    "R20": "-energy",
+    "R21": "-cardiology",
+    "RX": "R7 R8 R9 R10 R11 R3 R12 R13 R14 R15 R16 R17 R18 R19 R20 R21"
 	},
 	"filters": {
 		"F1": "published from 2014 to 2019",
@@ -71,13 +87,25 @@
 			"institution": "Elsevier",
 			"url": "https://www.sciencedirect.com/",
 			"S0": {
-			}
+				"input": "A1",
+				"filters": [ ],
+				"date of search": "A qualquer momento",
+				"number of results": 24,
+				"url": "https://scholar.google.com.br/scholar?q=(+%22compound+splitting%22+OR+%22identifier+splitting%22)&hl=pt-BR&as_sdt=0,5",
+				"search string": "( \"compounding split\" OR \"compound splitting\" OR \"identifier splitting\") -education -chemistry -gear -mechanical -biomedical"
+      }
 		},
 		{
 			"name": "IEEE Xplore Digital Library",
 			"institution": "IEEE",
 			"url": "https://ieeexplore.ieee.org/",
 			"S0": {
+        "input": "A1",
+        "filters": [],
+        "date of search": "A qualquer momento",
+        "number of results": 11,
+        "url": "https://ieeexplore.ieee.org/search/searchresult.jsp?action=search&newsearch=true&matchBoolean=true&queryText=(((%22All%20Metadata%22:%22compound%20splitting%22)%20OR%20%22All%20Metadata%22:%22identifier%20splitting%22)%20OR%20%22All%20Metadata%22:%22compound%20splitters%22)",
+        "search string": "( \"compound splitting\" OR \"identifier splitting\" OR \"compound splitters\")"
 			}
 		},
 		{
