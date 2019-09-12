@@ -1,4 +1,3 @@
-% Encoding: UTF-8
 @article{coelho2007stemming,
   title={Stemming para a l{\'\i}ngua portuguesa: estudo, an{\'a}lise e melhoria do algoritmo RSLP},
   author={Coelho, Alexandre Ramos},
@@ -541,11 +540,11 @@
   year={2018}
 }
 
-@MastersThesis{Kowata2010,
-  author = {Kowata, Juliana Hiroko},
-  title  = {Uma abordagem computacional para constru{\c{c}}{\~a}o de mapas conceituais a partir de textos em l{\'\i}ngua portuguesa do Brasil},
-  school = {Universidade Federal do Esp{\'\i}rito Santo},
-  year   = {2010},
+@mastersthesis{kowata2010abordagem,
+  title={Uma abordagem computacional para constru{\c{c}}{\~a}o de mapas conceituais a partir de textos em l{\'\i}ngua portuguesa do Brasil},
+  author={Kowata, Juliana Hiroko},
+  year={2010},
+  school={Universidade Federal do Esp{\'\i}rito Santo}
 }
 
 @article{amaral2017recomendaccao,
@@ -767,5 +766,3 @@
   author={Moreira Filho, Jos{\'e} Lopes},
   school={Universidade de S{\~a}o Paulo}
 }
-
-@Comment{jabref-meta: databaseType:bibtex;}
