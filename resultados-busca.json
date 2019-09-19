@@ -21,7 +21,7 @@
       "processamento de palavras compostas",
       "análise léxica"
 		],
-		"A5": [
+		"A5": [136
 			"processamento de linguagem natural",
 			"PLN"
     ],
@@ -29,6 +29,29 @@
       "palavras compostas",
       "palavras coladas",
       "palavras grudadas"
+    ],
+		"A7": [
+      "word segmentation",
+			"compound splitting",
+			"compound splitters",
+			"identifier splitting",
+      "hashtag decomposition",
+      "hashtag segmentation"
+    ],
+    "A8": [
+      "word segmentation"
+    ],
+    "A9": [
+      "segmentação de palavras"
+    ],
+    "A10": [
+      "natural language processing",
+      "nlp"      
+    ],
+    "B10": [
+      "processamento de linguagem natural",
+      "nlp",
+      "pln"
     ]
 	},
 	"restrictions": {
@@ -59,7 +82,21 @@
     "R25": "-chemical",
     "R26": "-philosophy",
     "R27": "-cultural",
-    "R28": "-psychology"
+    "R28": "-psychology",
+    "R29": "-chinese",
+    "R30": "-urdu",
+    "R31": "-thai",
+    "R32": "-vietnamese",
+    "R33": "-myanmar",
+    "R34": "-khmer",
+    "R35": "-arabic",
+    "R36": "-jobs",
+    "R37": "-tibetan",
+    "R38": "-ad",
+    "R39": "-\"call for papers\"",
+    "R40": "-japanese",
+    "R41": "-ocr",
+    "R42": "-biologic"
 	},
 	"filters": {
 		"F1": "published from 2014 to 2019",
@@ -68,13 +105,70 @@
 		"F4": "search content in english",
     "F5": "search content in portuguese",
     "F6": "área de ciências da computação"
-	},
-	"search engines": [
+  },
+  "grey literature": {
+    "searchs": [
+      {
+        "name": "Google Search",
+        "institution": "Google",
+        "url": "http://google.com",
+        "S0": {
+          "input": "A8 R29 R30 R31 R32 R33 R34 R35 R36 R37 R38 R39 R18",
+          "filters": [],
+          "date of search": "A qualquer momento",
+          "number of results": 5080,
+          "url": "https://www.google.com/search?q=%22word+segmentation%22+%22natural+language+processing%22+nlp+-chinese+-urdu+-thai+-vietnamese+-myanmar+-khmer+-arabic+-jobs+-tibetan+-ad+-medical+-%22call+for+papers%22",
+          "search string": "\"word segmentation\" \"natural language processing\" nlp -chinese -urdu -thai -vietnamese -myanmar -khmer -arabic -jobs -tibetan -ad -medical -\"call for papers\""    
+        }
+      }
+    ],
+    "selection criteria": {
+      "best ranked": "first 136",
+      "hits": "minimum 2",
+      "type": "web portal",
+      "document type": "technical report, blog post, software repositories, software documentation",
+      "ad-hoc": "Ad-hoc inclusion, eventualy found in grey literature"
+    },
+    "selected": [
+      { 
+        "name": "Towards Data Science",
+        "hits": "2",
+        "site": "https://towardsdatascience.com/",
+        "search urls": [ "https://towardsdatascience.com/search?q=%22word%20segmentation%22"],
+        "results": [
+         "https://towardsdatascience.com/fast-word-segmentation-for-noisy-text-2c2c41f9e8da"
+        ]
+      },
+      { 
+        "name": "Github",
+        "hits": "2",
+        "site": "https://github.com/",
+        "search urls": [ "https://github.com/search?q=%22word+segmentation%22+english&type=Repositories"],
+        "results": [
+         "https://github.com/grantjenks/python-wordsegment",
+         "https://github.com/cbaziotis/ekphrasis",
+         "https://github.com/frcchang/zpar",
+         "https://github.com/yida-lxw/IK",
+         "https://github.com/laiafr/bilingual_wordseg",
+         "https://github.com/rhcarvalho/shenmeci",
+         "https://github.com/sfu-natlang/seg-align",
+         "https://github.com/xxli/uninlp-phd",
+         "https://github.com/sujay-vittal/Text-Reconstruction"
+        ]
+      },
+      {
+        "name": "Peter Norvig",
+        "hits": "1",
+        "site": "https://norvig.com",
+        "result": "https://nbviewer.jupyter.org/url/norvig.com/ipython/How%20to%20Do%20Things%20with%20Words.ipynb"
+      }
+    ]
+  },
+	"searchs": [
 		{
 			"name": "Google Scholar",
 			"institution": "Google",
 			"url": "http://scholar.google.com",
-
 			"S0": {
 				"input": "A2",
 				"filters": [],
@@ -89,13 +183,21 @@
 			"institution": "Google",
 			"url": "http://scholar.google.com.br",
 			"S0": {
-				"input": "A4 A5 A6",
+				"input": "A9 A5 A6",
 				"filters": ["F5"],
 				"date of search": "A qualquer momento",
 				"number of results": 135,
 				"url": "https://scholar.google.com.br/scholar?lr=lang_pt&q=(+%22segmenta%C3%A7%C3%A3o%22+OR+%22separa%C3%A7%C3%A3o%22+OR+%22segmenta%C3%A7%C3%A3o+lexical%22+OR+%22processamento+de+palavras+compostas%22+OR+%22an%C3%A1lise+l%C3%A9xica%22)+AND+(+%22palavras+compostas%22+OR+%22palavras+coladas%22+OR+%22palavras+grudadas%22)+AND+(+%22processamento+de+linguagem+natural%22+OR+%22PLN%22)&hl=pt-BR&as_sdt=0,5",
 				"search string": "( \"segmentação\" OR \"separação\" OR \"segmentação lexical\" OR \"processamento de palavras compostas\" OR \"análise léxica\") AND ( \"palavras compostas\" OR \"palavras coladas\" OR \"palavras grudadas\") AND ( \"processamento de linguagem natural\" OR \"PLN\")"
-			}
+      },
+			"S1": {
+				"input": "A4 B10",
+				"filters": ["F5"],
+				"date of search": "A qualquer momento",
+				"number of results": 30,
+				"url": "https://scholar.google.com.br/scholar?lr=lang_pt&q=(+%22segmenta%C3%A7%C3%A3o+de+palavras%22)+AND+(+%22processamento+de+linguagem+natural%22+OR+%22nlp%22+OR+%22pln%22)&hl=pt-BR&as_sdt=0,5",
+				"search string": "( \"segmentação de palavras\") AND ( \"processamento de linguagem natural\" OR \"nlp\" OR \"pln\")"
+      }      
 		},
 		{
 			"name": "Science Direct",
@@ -108,7 +210,15 @@
 				"number of results": 24,
 				"url": "https://www.sciencedirect.com/search/advanced?qs=%22compound%20splitting%22%20OR%20%22identifier%20splitting%22%20OR%20%22compound%20splitters%22%20-engineering%20-optical%20-pharmacologic%20-pharmaceutic%20-surgery%20%20-chemistry%20-organic%20-alloy%20-biochemical%20-physics%20-molecular%20-disorders%20-medical%20-urology%20-energy%20-cardiology&show=100&sortBy=relevance",
 				"search string": "( \"compound splitting\" OR \"identifier splitting\" OR \"compound splitters\") -engineering -optical -pharmacologic -pharmaceutic -surgery -chemistry -organic -alloy -biochemical -physics -molecular -disorders -medical -urology -energy -cardiology"
-      }
+      },
+			"S1": {
+				"input": "A8 A10 R29 R30 R31 R32 R33 R34 R35 R37 R18 R40 R28 R41 R42",
+				"filters": [ ],
+				"date of search": "A qualquer momento",
+				"number of results": 27,
+				"url": "https://www.sciencedirect.com/search/advanced?qs=%28%20%22word%20segmentation%22%29%20AND%20%28%20%22natural%20language%20processing%22%20OR%20%22nlp%22%29%20-chinese%20-urdu%20-thai%20-vietnamese%20-myanmar%20-khmer%20-arabic%20-tibetan%20-medical%20-japanese%20-psychology%20-ocr%20-biologic&show=100&sortBy=relevance",
+				"search string": "( \"word segmentation\") AND ( \"natural language processing\" OR \"nlp\") -chinese -urdu -thai -vietnamese -myanmar -khmer -arabic -tibetan -medical -japanese -psychology -ocr -biologic"
+      }     
 		},
 		{
 			"name": "IEEE Xplore Digital Library",
@@ -121,7 +231,15 @@
         "number of results": 11,
         "url": "https://ieeexplore.ieee.org/search/searchresult.jsp?action=search&newsearch=true&matchBoolean=true&queryText=(((%22All%20Metadata%22:%22compound%20splitting%22)%20OR%20%22All%20Metadata%22:%22identifier%20splitting%22)%20OR%20%22All%20Metadata%22:%22compound%20splitters%22)",
         "search string": "( \"compound splitting\" OR \"identifier splitting\" OR \"compound splitters\")"
-			}
+      },
+			"S1": {
+        "input": "A8",
+        "filters": [],
+        "date of search": "A qualquer momento",
+        "number of results": 72,
+        "url": "https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=(%20%22word%20segmentation%22)%20AND%20(%20%22natural%20language%20processing%22%20OR%20%22nlp%22)%20AND%20NOT%20(chinese%20OR%20urdu%20OR%20vietnamese%20OR%20thai%20OR%20khmer%20OR%20arabic%20OR%20tibetan%20OR%20lao%20OR%20myanmar%20OR%20javanese%20OR%20japanese%20OR%20medical%20OR%20handwritten)",
+        "search string": "(\"word segmentation\") AND ( \"natural language processing\" OR \"nlp\") AND NOT (chinese OR urdu OR vietnamese OR thai OR khmer OR arabic OR tibetan OR medical OR handwritten)"
+      }      
 		},
 		{
 			"name": "ACM Digital Library",
