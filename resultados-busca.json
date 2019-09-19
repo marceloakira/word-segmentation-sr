@@ -182,8 +182,16 @@
 				"number of results": 1680,
 				"url": "https://scholar.google.com.br/scholar?q=(+%22compound+splitting%22+OR+%22identifier+splitting%22)&hl=pt-BR&as_sdt=0,5",
 				"search string": "( \"compounding split\" OR \"compound splitting\" OR \"identifier splitting\") -education -chemistry -gear -mechanical -biomedical"
+      },
+			"S1": {
+				"input": "A8 A10 R29 R30 R31 R32 R33 R34 R35 R36 R37 R38 R39 R18 ...",
+				"filters": ["F4"],
+				"date of search": "2010-2019",
+				"number of results": 57,
+				"url": "https://scholar.google.com.br/scholar?hl=en&as_sdt=0%2C5&as_ylo=2010&as_yhi=2019&q=%28%22natural+language+processing%22+OR+nlp%29+AND+%22word+segmentation%22+-chinese+-urdu+-thai+-vietnamese+-myanmar+-khmer+-arabic+-jobs+-tibetan+-medical+-japanese+-handwritten+-korean+-sentiment+-infant+-ocr+-bengali+-hindi+-speech+-xml+-network+-social+-audio&btnG=",
+				"search string": "(\"natural language processing\" OR nlp) AND \"word segmentation\" -chinese -urdu -thai -vietnamese -myanmar -khmer -arabic -jobs -tibetan -medical -japanese -handwritten -korean -sentiment -infant -ocr -bengali -hindi -speech -xml -network -social -audio"
       }
-    },
+    },    
     {
 			"name": "Google Acadêmico",
 			"institution": "Google",
@@ -284,7 +292,7 @@
         "input": "A8 A10 R29 R30 R31 R32 R46 R35 R18 R43 R33 R37 R44 R40 R40 R47 R48 R49",
         "filters": ["F6"],
         "date of search": "A qualquer momento",
-        "number of results": 70,
+        "number of results": 69,
         "url": "https://www-scopus.ez49.periodicos.capes.gov.br/results/results.uri?sort=plf-f&src=s&st1=+%22compound+splitting%22+OR+%22identifier+splitting%22+OR+%22compound+splitters%22&nlo=&nlr=&nls=&sid=82a8b77f901455a5a11f11b8bccb376f&sot=b&sdt=cl&cluster=scosubjabbr%2c%22COMP%22%2ct&sl=86&s=TITLE-ABS-KEY%28+%22compound+splitting%22+OR+%22identifier+splitting%22+OR+%22compound+splitters%22%29&origin=resultslist&zone=leftSideBar&editSaveSearch=&txGid=172376128b85a6c66584346af87cb5da",
         "search string": "(\"word segmentation\") AND (\"natural language processing\" OR \"nlp\") AND NOT (chinese OR urdu OR thai OR vietnamese OR lao OR arabic OR medical OR handwritten OR myanmar OR tibetan OR burmese OR japanese OR geoscience OR javanese OR \"question answering\")"				
       }      
