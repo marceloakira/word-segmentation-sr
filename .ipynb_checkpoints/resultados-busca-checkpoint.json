@@ -331,19 +331,6 @@
         "url": "https://link.springer.com/search?query=%28+%22compound+splitting%22+OR+%22identifier+splitting%22+OR+%22compound+splitters%22%29+-clinical+-simulation+-radio+-chemical+-engineering+-chemistry+-philosophy+-medical+-cultural+-physics+-psychology",
         "search string": "( \"word segmentation\") AND ( \"natural language processing\" OR \"nlp\") -chinese -medical -handwritten -japanese -vietnamese -lao -arabic -tibetan -urdu -thai -myanmar -ocr -\"question answering\" -multimedia -korean -financial -\"named entity recognition\" -networking -stenotype -xml -engineering -infant -education"	
 			}      
-    },
-		{
-			"name": "Arxiv",
-			"institution": "Cornell University",
-			"url": "https://arxiv.org",
-			"S0": {
-        "input": "A8 A10...",
-        "filters": [],
-        "date of search": "A qualquer momento",
-        "number of results": 56,
-        "url": "https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=%22word+segmentation%22&terms-0-field=all&terms-1-operator=NOT&terms-1-term=chinese&terms-1-field=title&terms-2-operator=NOT&terms-2-term=arabic&terms-2-field=title&terms-3-operator=NOT&terms-3-term=japanese&terms-3-field=title&terms-4-operator=NOT&terms-4-term=infant&terms-4-field=title&terms-5-operator=NOT&terms-5-term=sanskrit&terms-5-field=title&terms-6-operator=NOT&terms-6-term=tang&terms-6-field=title&terms-7-operator=NOT&terms-7-term=vietnamese&terms-7-field=title&terms-8-operator=NOT&terms-8-term=khmer&terms-8-field=title&terms-9-operator=NOT&terms-9-term=tibetan&terms-9-field=title&terms-10-operator=NOT&terms-10-term=handwritten&terms-10-field=title&terms-11-operator=NOT&terms-11-term=acoustic&terms-11-field=title&terms-12-operator=NOT&terms-12-term=spoken&terms-12-field=title&terms-13-operator=NOT&terms-13-term=mandarin&terms-13-field=title&classification-computer_science=y&classification-physics_archives=all&classification-include_cross_list=include&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first&start=50",
-        "search string": "order: -announced_date_first; size: 50; page_start: 50; classification: Computer Science (cs); include_cross_list: True; terms: AND all=\"word segmentation\"; NOT title=chinese; NOT title=arabic; NOT title=japanese; NOT title=infant; NOT title=sanskrit; NOT title=tang; NOT title=vietnamese; NOT title=khmer; NOT title=tibetan; NOT title=handwritten; NOT title=acoustic; NOT title=spoken; NOT title=mandarin"	
-			}      
-		}    		
+		}		
 	]
 }
