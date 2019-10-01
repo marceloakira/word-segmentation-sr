@@ -1,23 +1,72 @@
-{ 
+{
+  "byte pair encoding": {
+    "definitions": {
+      "": ""
+    }
+  },
+  "compound splitting": {
+    "definitions": {
+      "koehn_empirical_2003": "Compounding of words is common in a number of languages (German, Dutch, Finnish, Greek, etc.). Since words may be joined freely, this vastly increases the vocabulary size, leading to sparse data problems... For machine translation, the splitting of an unknown compound into its parts enables the translation of the compound by the translation of its parts.... Compounds are created by joining existing words together. Thus, to enumerate all possible splittings of a compound, we consider all splits into known words."
+    }
+  },
   "conditional random fields": {
     "definitions": {
       "noauthor_conditional_2019":"Conditional random fields (CRFs) are a class of statistical modeling method often applied in pattern recognition and machine learning and used for structured prediction"
-    },
-    "translation": {
-      "pt": ""
     }
   },
-  "joint word": {
+  "entailment": {
+    "definitions": {
+      "noauthor_entailment_2019": "Linguistic entailments occur when one may draw necessary conclusions from a particular use of a word, phrase or sentence. Entailment phrases are relations between propositions, and are always worded as, \"if A then B,\" meaning that if A is true, then B must also be true. Another way of phrasing this is, \"if A is true, then B must necessarily be true.\""
+    }
+  },
+  "feature location": {
+    "definitions": {
+      "rubin2013survey": "Feature location techniques aim at locating software artifacts that implement a specific program functionality, a.k.a. a feature"
+    }
+  },
+  "hypernym": {
+    "definitions": {
+      "noauthor_hyponymy_2019": "In linguistics, a hyponym (from Greek hupó, \"under\" and ónoma, \"name\") is a word or phrase whose semantic field[1] is included within that of another word, its hyperonym or hypernym (from Greek hupér, \"over\" and ónoma, \"name\").[2] In simpler terms, a hyponym is in a type-of relationship with its hypernym. For example, pigeon, crow, eagle and seagull are all hyponyms of bird (their hypernym); which, in turn, is a hyponym of animal."
+    }
+  },
+  "joint word segmentation": {
     "definitions": {
     },
     "translation": {
-      "pt": ""
+      "pt": "junção de palavras segmentadas"
+    },
+    "used in": {
+      "qian_transition-based_2015-2": "We propose a transition-based model for joint word segmentation, POS tagging and text normalization"
+    }
+  },
+  "lexeme": {
+    "definitions": {
+      "noauthor_lexeme_2019": "A lexeme (/ˈlɛksiːm/ (About this soundlisten)) is a unit of lexical meaning that underlies a set of words that are related through inflection. It is a basic abstract unit of meaning,[1] a unit of morphological analysis in linguistics that roughly corresponds to a set of forms taken by a single root word. For example, in English, run, runs, ran and running are forms of the same lexeme, which can be represented as RUN"
+    }
+  },
+  "lexicon": {
+    "definitions": {
+      "noauthor_lexicon_2019": " lexicon, word-hoard, wordbook, or word-stock is the vocabulary of a person, language, or branch of knowledge (such as nautical or medical). In linguistics, a lexicon is a language's inventory of lexemes. The word \"lexicon\" derives from the Greek λεξικόν (lexicon), neuter of λεξικός (lexikos) meaning \"of or for words"
     }
   },
   "morphology": {
     "definitions": {
       "noauthor_morphology_2019": "In linguistics, morphology (/mɔːrˈfɒlədʒi/[1]) is the study of words, how they are formed, and their relationship to other words in the same language.[2][3] It analyzes the structure of words and parts of words, such as stems, root words, prefixes, and suffixes"
     }
+  },
+  "parallel text": {
+    "definitions": {
+      "noauthor_parallel_2019":"A parallel text is a text placed alongside its translation or translations.[1][2] Parallel text alignment is the identification of the corresponding sentences in both halves of the parallel text"
+    },
+    "synonyms": ["bilingual corpora"]
+  },
+  "statistical machine translation": {
+    "defintions": {
+      "noauthor_statistical_2019": "Statistical machine translation (SMT) is a machine translation paradigm where translations are generated on the basis of statistical models whose parameters are derived from the analysis of bilingual text corpora. The statistical approach contrasts with the rule-based approaches to machine translation as well as with example-based machine translation."
+    }
+  },
+  "text normalization": {
+    "noauthor_text_2018": "Text normalization is the process of transforming text into a single canonical form that it might not have had before. Normalizing text before storing or processing it allows for separation of concerns, since input is guaranteed to be consistent before operations are performed on it. Text normalization requires being aware of what type of text is to be normalized and how it is to be processed afterwards; there is no all-purpose normalization procedure"
   },
   "text segmentation": {
     "definitions": {
@@ -35,9 +84,19 @@
   "treebank": {
 
   },
+  "word alignment": {
+
+  },
+  "word boundary": {
+    "used in": {
+      "cho_novel_2009-2": "Most NLP applications work under the assumption that a user input is error-free; thus, word segmentation (WS) for written languages that use word boundary markers (WBMs), such as spaces, has been regarded as a trivial issue"
+    },
+    "synonyms": ["word delimiter"]
+  },
   "word segmentation": {
     "definitions": {
-      "noauthor_text_2019": "Word segmentation is the problem of dividing a string of written language into its component words"
+      "noauthor_text_2019": "Word segmentation is the problem of dividing a string of written language into its component words",
+      "doval_comparing_2018-1": "Word segmentation is the task of inserting or deleting word boundary characters in order to separate character sequences that correspond to words in some language"
     }
   },
   "word splitting": {
