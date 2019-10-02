@@ -96,7 +96,8 @@
   "word segmentation": {
     "definitions": {
       "noauthor_text_2019": "Word segmentation is the problem of dividing a string of written language into its component words",
-      "doval_comparing_2018-1": "Word segmentation is the task of inserting or deleting word boundary characters in order to separate character sequences that correspond to words in some language"
+      "doval_comparing_2018-1": "Word segmentation is the task of inserting or deleting word boundary characters in order to separate character sequences that correspond to words in some language",
+      "kazakov_unsupervised_2001-2": "Word segmentation is the task,of splitting words into a number of constituents or morphemes,e.g. sleep-ing, dis-member-ed, in order to compare words and study their differences. Here word segmentation is used as related to word morphology, and not to tokenization, where lexical constituents are identified in the text"
     }
   },
   "word splitting": {
