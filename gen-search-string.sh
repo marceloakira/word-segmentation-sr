@@ -5,7 +5,7 @@ for I in $*; do
    TYPE=$(echo $I | cut -c -1)
    if [ "$TYPE" == "R" ]; then
         FILTRO=".restrictions.$I"
-        RESTRICTION=$(cat resultados-busca.json | jq "$FILTRO" | sed 's/,/ /g' | sed 's/\[//g' | sed 's/\]//g' | sed 's/^"//g' | sed 's/"$//g')
+        RESTRICTION=$(cat search-db.json | jq "$FILTRO" | sed 's/,/ /g' | sed 's/\[//g' | sed 's/\]//g' | sed 's/^"//g' | sed 's/"$//g')
         if [ "$STRING" == "" ]; then
                 STRING="$RESTRICTION"
         else
@@ -13,7 +13,7 @@ for I in $*; do
         fi
    else
         FILTRO=".keys.$I"
-        KEY=$(cat resultados-busca.json | jq "$FILTRO" | sed 's/,/ OR/g' | sed 's/\[//g' | sed 's/\]//g' )
+        KEY=$(cat search-db.json | jq "$FILTRO" | sed 's/,/ OR/g' | sed 's/\[//g' | sed 's/\]//g' )
         if [ "$STRING" == "" ]; then
                 STRING="($KEY)"
             else

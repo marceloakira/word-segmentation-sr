@@ -1,57 +1,35 @@
 {
 	"description": "systematic review on compound splitting for preprocessing in NLP",
 	"keys": {
-		"A1": [
-			"compound splitting",
-			"identifier splitting",
-			"compound splitters"
-		],
-		"A2": [
+		"SE1": [
 			"compound splitting",
 			"identifier splitting"
-		],
-		"A3": [
+    ],
+    "SE2": [
+      "word segmentation"
+    ],    
+		"SE3": [
 			"natural language processing",
 			"NLP"
 		],
-		"A4": [
+		"SE4": [
       "segmentação",
       "separação",
       "segmentação lexical",
       "processamento de palavras compostas",
       "análise léxica"
 		],
-		"A5": [
+    "SE5": [
+      "segmentação de palavras"
+    ],
+		"SE6": [
 			"processamento de linguagem natural",
 			"PLN"
     ],
-    "A6": [
+    "SE7": [
       "palavras compostas",
       "palavras coladas",
       "palavras grudadas"
-    ],
-		"A7": [
-      "word segmentation",
-			"compound splitting",
-			"compound splitters",
-			"identifier splitting",
-      "hashtag decomposition",
-      "hashtag segmentation"
-    ],
-    "A8": [
-      "word segmentation"
-    ],
-    "A9": [
-      "segmentação de palavras"
-    ],
-    "A10": [
-      "natural language processing",
-      "nlp"      
-    ],
-    "B10": [
-      "processamento de linguagem natural",
-      "nlp",
-      "pln"
     ]
 	},
 	"restrictions": {
@@ -176,16 +154,16 @@
 			"institution": "Google",
 			"url": "http://scholar.google.com",
 			"S0": {
-				"input": "A2",
+				"input": "A2 R2 R3 R5 R6 R7 R29",
 				"filters": [],
 				"date of search": "A qualquer momento",
-				"number of results": 1680,
-				"url": "https://scholar.google.com.br/scholar?q=(+%22compound+splitting%22+OR+%22identifier+splitting%22)&hl=pt-BR&as_sdt=0,5",
-				"search string": "( \"compounding split\" OR \"compound splitting\" OR \"identifier splitting\") -education -chemistry -gear -mechanical -biomedical"
+				"number of results": 114,
+				"url": "F1",
+				"search string": "(\"compounding split\" OR \"compound splitting\") AND (\"NLP\" OR \"natural language processing\") -education -chemistry  -mechanical -biomedical -engineering -chinese"
       },
 			"S1": {
 				"input": "A8 A10 R29 R30 R31 R32 R33 R34 R35 R36 R37 R38 R39 R18 ...",
-				"filters": ["F4"],
+				"filters": ["F3", "F4"],
 				"date of search": "2010-2019",
 				"number of results": 57,
 				"url": "https://scholar.google.com.br/scholar?hl=en&as_sdt=0%2C5&as_ylo=2010&as_yhi=2019&q=%28%22natural+language+processing%22+OR+nlp%29+AND+%22word+segmentation%22+-chinese+-urdu+-thai+-vietnamese+-myanmar+-khmer+-arabic+-jobs+-tibetan+-medical+-japanese+-handwritten+-korean+-sentiment+-infant+-ocr+-bengali+-hindi+-speech+-xml+-network+-social+-audio&btnG=",
@@ -218,7 +196,7 @@
 			"institution": "Elsevier",
 			"url": "https://www.sciencedirect.com/",
 			"S0": {
-				"input": "A1 R7 R8 R9 R10 R11 R3 R12 R13 R14 R15 R16 R17 R18 R19 R20 R21",
+				"input": "A2 R7 R8 R9 R10 R11 R3 R12 R13 R14 R15 R16 R17 R18 R19 R20 R21",
 				"filters": [ ],
 				"date of search": "A qualquer momento",
 				"number of results": 24,
@@ -355,10 +333,20 @@
     {
       "name": "ACL Web",
       "institution": "Association for Computational Linguistics",
-      "url": "",
+      "url": "www.aclweb.org/anthology",
       "S0": {
         "number of results": 573,
         "search string": "site:www.aclweb.org/anthology \"word segmentation\" -tibetan -chinese -japanese -sanskrit -arabic -vietnamese -sesotho -urdu -people"
+      }
+    },
+    {
+      "name": "Yale University's Language, Information, and Learning at Yale (LILY) Group",
+      "institution": "All About NLP (AAN)",
+      "url": "http://aan.how/",
+      "S0": {
+        "number of results": 92,
+        "search string": "http://aan.how/search/resources/?q=%22word%20segmentation%22%20-chinese",
+        "filters": ["+paper", "+survey"]
       }
     }    		
 	]

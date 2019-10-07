@@ -1,12 +1,44 @@
 {
+  "BLEU": {
+    "definitions": {
+      "noauthor_bleu_2019": "BLEU (bilingual evaluation understudy) is an algorithm for evaluating the quality of text which has been machine-translated from one natural language to another. Quality is considered to be the correspondence between a machine's output and that of a human: \"the closer a machine translation is to a professional human translation, the better it is\" – this is the central idea behind BLEU.[1][2] BLEU was one of the first metrics to claim a high correlation with human judgements of quality,[3][4] and remains one of the most popular automated and inexpensive metrics...BLEU uses a modified form of precision to compare a candidate translation against multiple reference translations. "
+    }
+  },
   "byte pair encoding": {
     "definitions": {
       "": ""
     }
   },
+  "camel case": {
+    "definition": {
+      "": ""
+    },
+    "cited in tasks": ["identifier splitting"] 
+  },
+  "closed compound": {
+    "definition": {
+      "noauthor_closed_nodate": "A compound word without spaces in it."
+    }
+  },
+  "compounding language": {
+    "definitions": {
+      "coster_selective_2004": "This means that new words are often formed by adjoining two or more separate words. Such words are called closed compounds."
+    },
+    "examples": [ "swedish", "german", "dutch", "finnish", "danish", "greek"]
+  },
+  "compound word": {
+    "definitions": {
+      "noauthor_compound_2019":"In linguistics, a compound is a lexeme (less precisely, a word or sign) that consists of more than one stem. Compounding, composition or nominal composition is the process of word formation that creates compound lexemes. That is, in familiar terms, compounding occurs when two or more words or signs are joined to make one longer word or sign. The meaning of the compound may be similar to or different from the meaning of its components in isolation. The component stems of a compound may be of the same part of speech—as in the case of the English word footpath, composed of the two nouns foot and path—or they may belong to different parts of speech, as in the case of the English word blackbird, composed of the adjective black and the noun bird.  With very few exceptions, English compound words are stressed on their first component stem. The process occurs readily in other Germanic languages for different reasons.  Words can be concatenated both to mean the same as the sum of two words"
+    },
+    "synonyms": ["compound"],
+    "sub-definitions": ["closed compound", "hyphenated compound"]
+  },
   "compound splitting": {
     "definitions": {
       "koehn_empirical_2003": "Compounding of words is common in a number of languages (German, Dutch, Finnish, Greek, etc.). Since words may be joined freely, this vastly increases the vocabulary size, leading to sparse data problems... For machine translation, the splitting of an unknown compound into its parts enables the translation of the compound by the translation of its parts.... Compounds are created by joining existing words together. Thus, to enumerate all possible splittings of a compound, we consider all splits into known words."
+    },
+    "usage": {
+      "koehn_empirical_2003": "improve query search"
     }
   },
   "conditional random fields": {
@@ -24,9 +56,22 @@
       "rubin2013survey": "Feature location techniques aim at locating software artifacts that implement a specific program functionality, a.k.a. a feature"
     }
   },
+  "gold standard corpora": {
+    "definitions": {
+      "wissler2014gold": "Trustworthy corpora are necessary for training and meaningful evaluation of algorithms which use annotations. These standard collections are called Gold Standard Corpora (GSC)."
+    }
+  },
+  "hyphenated compound": {
+    "noauthor_hyphenated_nodate": "A compound word combined using hyphens, such as get-together, half-baked, two-tone, or broad-minded"
+  },
   "hypernym": {
     "definitions": {
       "noauthor_hyponymy_2019": "In linguistics, a hyponym (from Greek hupó, \"under\" and ónoma, \"name\") is a word or phrase whose semantic field[1] is included within that of another word, its hyperonym or hypernym (from Greek hupér, \"over\" and ónoma, \"name\").[2] In simpler terms, a hyponym is in a type-of relationship with its hypernym. For example, pigeon, crow, eagle and seagull are all hyponyms of bird (their hypernym); which, in turn, is a hyponym of animal."
+    }
+  },
+  "identifier splitting": {
+    "definitions": {
+      "hill_empirical_2014-1": "The goal of an identifier-splitting algorithm is to take an identifier as input, and output a list of substrings that partition the identifier. These substrings can be dictionary words, where its meaning is obvious, abbreviations, which represent a single dictionary word, or acronyms, which represents several dictionary words."
     }
   },
   "joint word segmentation": {
@@ -44,6 +89,9 @@
       "noauthor_lexeme_2019": "A lexeme (/ˈlɛksiːm/ (About this soundlisten)) is a unit of lexical meaning that underlies a set of words that are related through inflection. It is a basic abstract unit of meaning,[1] a unit of morphological analysis in linguistics that roughly corresponds to a set of forms taken by a single root word. For example, in English, run, runs, ran and running are forms of the same lexeme, which can be represented as RUN"
     }
   },
+  "lexical overlap hypothesis": {
+    "": ""
+  },
   "lexicon": {
     "definitions": {
       "noauthor_lexicon_2019": " lexicon, word-hoard, wordbook, or word-stock is the vocabulary of a person, language, or branch of knowledge (such as nautical or medical). In linguistics, a lexicon is a language's inventory of lexemes. The word \"lexicon\" derives from the Greek λεξικόν (lexicon), neuter of λεξικός (lexikos) meaning \"of or for words"
@@ -58,6 +106,12 @@
     "definitions": {
       "noauthor_morphology_2019": "In linguistics, morphology (/mɔːrˈfɒlədʒi/[1]) is the study of words, how they are formed, and their relationship to other words in the same language.[2][3] It analyzes the structure of words and parts of words, such as stems, root words, prefixes, and suffixes"
     }
+  },
+  "out of vocabulary": {
+    "definitions": {
+      "": ""
+    },
+    "cited in tasks": [ "hashtag segmentation", "web-domains segmentation", "speech to text" ]
   },
   "parallel text": {
     "definitions": {
@@ -75,8 +129,15 @@
       "noauthor_statistical_2019": "Statistical machine translation (SMT) is a machine translation paradigm where translations are generated on the basis of statistical models whose parameters are derived from the analysis of bilingual text corpora. The statistical approach contrasts with the rule-based approaches to machine translation as well as with example-based machine translation."
     }
   },
+  "text entailment": {
+    "definitions": {
+      "jagfeld_evaluating_2017": "is a directional relationship between an entailing text fragment T and an entailed hypothesis, H, saying that the meaning of T entails (or implies) the meaning of H."
+    }
+  },
   "text normalization": {
-    "noauthor_text_2018": "Text normalization is the process of transforming text into a single canonical form that it might not have had before. Normalizing text before storing or processing it allows for separation of concerns, since input is guaranteed to be consistent before operations are performed on it. Text normalization requires being aware of what type of text is to be normalized and how it is to be processed afterwards; there is no all-purpose normalization procedure"
+    "definitions": {
+      "noauthor_text_2018": "Text normalization is the process of transforming text into a single canonical form that it might not have had before. Normalizing text before storing or processing it allows for separation of concerns, since input is guaranteed to be consistent before operations are performed on it. Text normalization requires being aware of what type of text is to be normalized and how it is to be processed afterwards; there is no all-purpose normalization procedure"      
+    }
   },
   "text segmentation": {
     "definitions": {
@@ -93,6 +154,9 @@
   },
   "treebank": {
 
+  },
+  "universal dependencies": {
+    "definitions": "Universal Dependencies (UD) is a framework for consistent annotation of grammar (parts of speech, morphological features, and syntactic dependencies) across different human languages. UD is an open community effort with over 200 contributors producing more than 100 treebanks in over 70 languages. If you’re new to UD, you should start by reading the first part of the Short Introduction and then browsing the annotation guidelines."
   },
   "word alignment": {
 
