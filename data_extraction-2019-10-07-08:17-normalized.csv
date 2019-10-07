@@ -1,0 +1,159 @@
+article,1. Qual é o tipo de trabalho?,2. Quais são os corpus utilizados?, 3. O trabalho envolveu técnicas de Deep Learning? Quais? , 4. O trabalho utilizou modelos de 'word embedding'? Quais? , 5. Qual é domínio de aplicação?,6. Quais línguas o trabalho abordou?,7. O trabalho utilizou técnicas diferentes do Deep Learning? Quais?,8. Qual foi o tipo de aprendizado?,9. Qual terminologia utilizada?,10. Qual é o tipo de corpus testado?
+TIDIER: An identifier splitting approach using speech recognition techniques,AC = Artigo de Conferencia,"Apache Web server Code
+Programs of GNU Repository
+Linux Kernel
+Own Dataset (Oracle)",N,N,ES = Engenharia de Software,I = Inglês,"String edit distance
+Word transformation rules
+Thesaurus of words and abbreviations",Não-supervisionado,IS = Identifier Splitting,I = Identificadores de código-fonte
+Segmenting web-domains and hashtags using length specific models,AC = Artigo de Conferencia,,N,N,,I = Inglês,"joint probability model
+SVM",,,
+Selective compound splitting of swedish queries for boolean combinations of truncated terms,AP = Artigo de Periódico,CLEF Corpora,N,N,O = Outra,O = Outra,"VSM = Vector Space Model
+RI = Random Indexing",Não informado / Não aplicável,CS = Compound Splitting,P = Palavras Compostas
+Annotated Suffix Tree Method for German Compound Splitting,,"Wiktionary, Category: German compound words",N,N,T = Tradução Automática,"A = Alemão, I = Inglês",Annotated Suffix Tree,Não-supervisionado,"CS = Compound Splitting, CSP = Compound Splitter",P = Palavras Compostas
+Automatic Derivation of Concepts Based on the Analysis of Source Code Identifiers,,Own Corpus,N,N,ES = Engenharia de Software,I = Inglês,,Supervisionado,IS = Identifier Splitting,I = Identificadores de código-fonte
+Can Better Identifier Splitting Techniques Help Feature Location?,,"Rhino Features
+Rhino Bugs
+jEdit Features
+jEdit Bugs",N,N,ES = Engenharia de Software,I = Inglês,"Information Retrieval 
+Dynamic analysis",,IS = Identifier Splitting,I = Identificadores de código-fonte
+Comparing the Effect of Syntactic vs. Statistical Phrase Indexing Strategies for Dutch,,"Het Eindhovens Dagblad
+Het Brabants Dagblad
+Het Nieuwsblad",N,N,G = Geral,O = Outra,,Não informado / Não aplicável,"CS = Compound Splitting, CSP = Compound Splitter",P = Palavras Compostas
+From Source Code Identifiers to Natural Language Terms,,Own Corpus,N,N,ES = Engenharia de Software,I = Inglês,,Semi-supervisionado,IS = Identifier Splitting,I = Identificadores de código-fonte
+A dataset for evaluating identifier splitters,,Own Corpus,N,N,ES = Engenharia de Software,I = Inglês,,Semi-supervisionado,IS = Identifier Splitting,I = Identificadores de código-fonte
+Segmenting twitter hashtags,,Contemporary American English,N,N,R = Análise de Redes Sociais,"I = Inglês, P = Português","Maximum Known Matching
+Maximum Unknown Matching
+Two grams
+POS tagging",,WS = Word Segmentation,H = Hashtag
+Dutch hypernym detection: does decompounding help?,,Own Annoted Corpus with BRAT,N,N,T = Tradução Automática,O = Outra,"hypernym detection system
+pos tagging",Não-supervisionado,CS = Compound Splitting,P = Palavras Compostas
+Splitting compounds by semantic analogy ,,,,,,,,,,
+Splitting source code identifiers using Bidirectional LSTM Recurrent Neural Network,,"Public Git Archive
+Wikipedia corpus","LSTM
+Character-level Convolutional Neural Network",N,G = Geral,V = Várias,Gradient boosting on decision trees,Não-supervisionado,IS = Identifier Splitting,I = Identificadores de código-fonte
+Splitting compounds with ngrams,,Aamulehti-1999 Finnish daily newspaper corpus,N,N,G = Geral,O = Outra,"morphological analyzer
+Trigram Language Model",Semi-supervisionado,CS = Compound Splitting,G = Geral
+German Compounds and Statistical Machine Translation. Can they get along?,,"TRIS corpus
+German-Spanish parallel corpus
+Europarl corpus",N,N,T = Tradução Automática,"A = Alemão, E = Espanhol",Pos Tagging,,CS = Compound Splitting,G = Geral
+Sembler: Ensembling crowd sequential labeling for improved quality,,"Crowdsourcing services
+Amazon Mechanical Turking
+Tweet data set",N,N,G = Geral,I = Inglês,"Crowd Annotation
+Majority Agreement",Semi-supervisionado,WS = Word Segmentation,G = Geral
+Word segmentation through cross-lingual word-to-phoneme alignment,,BTEC Corpus,N = Não,N = Não,G = Geral,"E = Espanhol, I = Inglês, V = Várias","Word-to-Word Alignment
+Phoneme recognition",Não-supervisionado,WS = Word Segmentation,G = Geral
+Wordsyoudontknow: Evaluation of lexicon-based decompounding with unknown handling,,"news corpus
+wiki corpus",N,N,G = Geral,V = Várias,Wordsyoudontknow: Evaluation of lexicon-based decompounding with unknown handlingS,Não-supervisionado,CS = Compound Splitting,G = Geral
+Spiral: splitters for identifiers in source code files.,,"NLTK
+Wordnet",N,N,,I = Inglês,Ronin Algorithm,,IS = Identifier Splitting,I = Identificadores de código-fonte
+Using an Ant Colony Metaheuristic to Optimize Automatic Word Segmentation for Ancient Greek,,ND/NA,N,N,G = Geral,V = Várias,Análise morfológica,Não informado / Não aplicável,WS = Word Segmentation,G = Geral
+Statistical machine translation of german compound words,,European Parliament,N,N,T = Tradução Automática,"A = Alemão, I = Inglês",Técnicas Estatísticas,Não informado / Não aplicável,CS = Compound Splitting,G = Geral
+Unsupervised segmentation of sequences using harmony search and hierarchical clustering techniques,,Livro Moby Dick,N,N,G = Geral,U = Universal,Baseado no Algoritmo de Viterbi,Não-supervisionado,WS = Word Segmentation,G = Geral
+Splitting of compound terms in non-prototypical compounding languages,,"New York Times corpus, The Russian National Corpus",N,N,G = Geral,"I = Inglês, V = Várias",Estatísticas,Supervisionado,"CS = Compound Splitting, CSP = Compound Splitter",
+Python {Word} {Segmentation},,Google Web Trillion Word Corpus,N,N,G = Geral,I = Inglês,Técnicas Estatísticas,Não informado / Não aplicável,WS = Word Segmentation,G = Geral
+Statistical {Natural} {Language} {Processing} in {Python}. or {How} {To} {Do} {Things} {With} {Words}. {And} {Counters}. or {Everything} {I} {Needed} to {Know} {About} {NLP} {I} learned {From} {Sesame} {Street}. {Except} {Kneser}-{Ney} {Smoothing}. {The} {Count} {Didn}'t {Cover} {That}.,,big.txt,N,N,G = Geral,V = Várias,Programação dinâmica e bigramas,Não informado / Não aplicável,WS = Word Segmentation,G = Geral
+Fast {Word} {Segmentation} of {Noisy} {Text},,Google Books Ngram corpus,N,N,G = Geral,I = Inglês,Programação dinâmica e matriz triangular,Não informado / Não aplicável,WS = Word Segmentation,G = Geral
+Ekphrasis,,"english Wikipedia, twitter - 330mil english tweets","Y, Redes Neurais Recorrentes",Y,G = Geral,I = Inglês,N,Não informado / Não aplicável,"WSP = Word Splitting, WS = Word Segmentation","G = Geral, H = Hashtag"
+Unsupervised learning of word segmentation rules with genetic algorithms and inductive logic programming,,ND,NA,NA,,F = Francẽs,"Programação Lógica Indutiva (ILP), Algoritmos Genéticos (GA), Análise Morfológica (MA)",Não-supervisionado,WS = Word Segmentation,G = Geral
+Automatic word spacing using probabilistic models based on character n-grams,,"21st Century Sejong Project’s, ETRI",N,N,G = Geral,"I = Inglês, V = Várias",Técnicas Estatísticas baseadas em n-gramas,Não informado / Não aplicável,"CS = Compound Splitting, WSP = Word Splitting",G = Geral
+An improved unsupervised approach to word segmentation,,"Backoff-2 dataset, Backoff-3 dataset, CGW",N,N,G = Geral,I = Inglês,Técnicas Estatísticas e aprendizado não supervisionado,Não-supervisionado,WS = Word Segmentation,G = Geral
+Using language rules to improve the performance of word segmentation,,The People Daily corpus of January 1998,N,N,G = Geral,U = Universal,Regras da Linguagem,Não informado / Não aplicável,WS = Word Segmentation,G = Geral
+A statistical learning algorithm for word segmentation,,ND/NA,Statistical Learning,N,G = Geral,I = Inglês,Técnicas Estatísticas,Não informado / Não aplicável,WS = Word Segmentation,
+"Detecting ""protein words"" through unsupervised word segmentation",,Protein Data Bank (PDB),N,N,G = Geral,V = Várias,Aprendizado não-supervisionado,Não-supervisionado,WS = Word Segmentation,G = Geral
+Breaking Bad: Detecting malicious domains using word segmentation,,Google Ngrams corpus,N,N,G = Geral,I = Inglês,Técnicas Estatísticas,Não informado / Não aplicável,WS = Word Segmentation,U = URL
+Neural Machine Translation of Rare Words with Subword Units,,Eurparl versão 7,N,N,T = Tradução Automática,V = Várias,Byte pair encoding (BPE),Não informado / Não aplicável,WS = Word Segmentation,G = Geral
+Incremental Learning for Fully Unsupervised Word Segmentation UsingPenalized Likelihood and Model Selection,,"Bernstein-Ratner, SIGHAN Bakeoff-2005",N,N,G = Geral,V = Várias,Aprendizado não supervisionado,Não-supervisionado,WS = Word Segmentation,G = Geral
+Neural Word Segmentation with Rich Pretraining,,"Chinese Treebank 6.0 (CTB6)
+SIGHAN 2005 bake-off 
+NLPCC 2016 shared task for Weibo segmentation
+Chinese Gigaword","S = SIM
+LSTM",Não,G = Geral,C = Chinês,N,Semi-supervisionado,WS = Word Segmentation,G = Geral
+Cross-lingual Word Segmentation and Morpheme Segmentation as SequenceLabelling,,- 10 data sets provided in the MLP 2017 shared tasks,"S = Sim
+BiRRN = Bidirectional Recurrent Neural Network
+GRU = Gated recurrent units",N = Não,G = Geral,V = Várias,"CRF = Conditional Random Fields
+MF = Morpheme Segmentation
+3GM = 3-Gram Model
+VA = Viterbi Algorithm",Não-supervisionado,,G = Geral
+Morphological and Language-Agnostic Word Segmentation for NMT,,"Europarl v7
+OpenSubtitles2016
+WMT3 newstest2011
+WMT3 newstest2013",STE = SubwordTextEncoder class,N = Não,T = Tradução Automática,"A = Alemão, V = Várias","BPE = BytePair Encoding
+MS = Morpheme Segmentation (Morfessor Tool)
+Moses tokenizer",Não-supervisionado,WS = Word Segmentation,G = Geral
+Universal Word Segmentation: Implementation and Interpretation,,Datasets from Universal Dependencies 2.0,BiRNN = Bidirectional Recurrent Neural Networks,CE = Character Embeddings,G = Geral,"C = Chinês, F = Francẽs, I = Inglês, P = Português, V = Várias",CRF = Conditional Random Fields,Não-supervisionado,WS = Word Segmentation,G = Geral
+Comparing neural- and N-gram-based language models for word segmentation,,WMT17,N,N,G = Geral,V = Várias,"Redes Neurais Recorrentes, Técnicas estatísticas baseadas em n-gramas",Não informado / Não aplicável,WS = Word Segmentation,G = Geral
+Multilingual word segmentation: Training many language-specific tokenizers smoothly thanks to the universal dependencies corpus,,Universal Dependencies 2.1 corpus (UD2),RNN,N,G = Geral,U = Universal,CRF,Supervisionado,WS = Word Segmentation,G = Geral
+Improving Nonparameteric Bayesian Inference: Experiments on Unsupervised Word Segmentation with Adaptor Grammars,,Brent version of the Bernstein-Ratner corpus,N = Não,N = Não,G = Geral,,HBI = Hierarchical Bayesian Inference,Não-supervisionado,WS = Word Segmentation,G = Geral
+Fully Unsupervised Word Segmentation with BVE and MDL,,BR87 corpus,N = Não,N = Não,G = Geral,U = Universal,"MDL = Minimum Description Length
+BVE = Bootstrapped Voting Experts",Não-supervisionado,WS = Word Segmentation,G = Geral
+Word Segmentation As General Chunking,,BR87 corpus,N,N,G = Geral,U = Universal,"VE = Voting Experts
+BVE = Bootstrapped Voting Experts
+PtM = Phoneme to Morpheme",Não-supervisionado,WSP = Word Splitting,G = Geral
+Language Independent Word Segmentation for Statistical Machine Translation,,BTEC = Multilingual Basic Travel Expressions Corpus,N,N = Não,T = Tradução Automática,"C = Chinês, I = Inglês, V = Várias",IBM = Iterative Bootstrap Method,Não-supervisionado,WS = Word Segmentation,G = Geral
+Data-driven Compound Splitting Method for English Compounds in Domain Names,AC = Artigo de Conferencia,Wikipedia English corpus Titles = 1.1M unique words,N,N,O = Outra,I = Inglês,"Objective Function based in Frequency
+N-gram = 1-gram to 3-gram
+List of Stop-words = filter tokens",,CS = Compound Splitting,U = URL
+How to Avoid Burning Ducks: Combining Linguistic Analysis and Corpus Statistics for German Compound Processing,AC = Artigo de Conferencia,ND,N,N,T = Tradução Automática,A = Alemão,"MA = Morphological Analysis = using SMOR Morphological Analyser
+WFC = Word Frequencies from large Corpus = used combined with MA",Não informado / Não aplicável,CS = Compound Splitting,P = Palavras Compostas
+Mining source code to automatically split identifiers for software analysis,AC = Artigo de Conferencia,"9000 OpenSource Java Programs in SourceForge, annotated with two humans",N,N,ES = Engenharia de Software,I = Inglês,"AE = Abbreviation Expansions = Try to expand abbreviated strings  
+DW = Dictionary Word = Validate tokens with Dictionary Word (Ispell tool)",Supervisionado,IS = Identifier Splitting,I = Identificadores de código-fonte
+Towards unsupervised and language-independent compound splitting using inflectional morphological transformations,AC = Artigo de Conferencia,"German and Dutch version of Wikipedia
+Afrikaans Taalkommissie corpus",N,N,O = Outra,"A = Alemão, V = Várias","Morphological transformation
+Inflectional morphology
+Compound headedness
+POS Tagging
+Lemmatizer
+Binary split compound set developed for GermaNet by Henrich and Hinrichs
+Split point gold standards developed by Verhoeven et al",Não-supervisionado,"CS = Compound Splitting, CSP = Compound Splitter",P = Palavras Compostas
+Letter sequence labeling for compound splitting,,"PE = Parra Escartin dataset
+GM = GermaNet",N,N,T = Tradução Automática,"A = Alemão, U = Universal","CRF = Conditional Random Fields
+LSL = Letter Sequence Labeling",Não informado / Não aplicável,CS = Compound Splitting,"G = Geral, P = Palavras Compostas"
+Simple compound splitting for German,,"German webcorpus
+SMOR
+Germanet",N,N,T = Tradução Automática,A = Alemão,Form-to-Lemma Mapping,Não-supervisionado,CS = Compound Splitting,P = Palavras Compostas
+"82 Treebanks, 34 Models: Universal Dependency Parsing withMulti-Treebank Models",,Universal Dependencies v2.2,"BiRNN-CRF
+ Attention-based LSTM Model","Facebook word embeddings
+Character Embeddings Trained on Wikipedia Text",G = Geral,"U = Universal, V = Várias","Joint Word
+Trie-based segmenter",Não-supervisionado,WS = Word Segmentation,G = Geral
+"Learning to Discover, Ground and Use Words with Segmental NeuralLanguage Models",,"Brent corpus
+English Penn Treebank
+Beijing University Corpus
+Chinese Penn Treebank","Character-LSTM
+Segmental Neural Language Model",N,G = Geral,"C = Chinês, I = Inglês","Lexical Generation
+Marginal Likelihood",Não-supervisionado,WS = Word Segmentation,G = Geral
+Using wikipedia links to construct word segmentation corpora,,Wikipedia Corpus,N,N,G = Geral,O = Outra,POS Tagging,Não-supervisionado,WS = Word Segmentation,G = Geral
+Integration of multiple bilingually-trained segmentation schemes into statistical machine translation,,"Bilingual/Multilingual Corpus
+Basic Travel Expressions Corpus (BTREC)
+Statistical Machine Translation",N,N,G = Geral,"C = Chinês, I = Inglês, V = Várias",Maximum-Entropy Method,Não-supervisionado,WS = Word Segmentation,G = Geral
+An Experimental Investigation on the Effects of Context on Source Code Identifiers Splitting and Expansion,,C open-source programs,n,n,ES = Engenharia de Software,I = Inglês,,Semi-supervisionado,IS = Identifier Splitting,I = Identificadores de código-fonte
+An Empirical Study of Identifier Splitting Techniques,,Own Corpus,N,N,ES = Engenharia de Software,I = Inglês,,Não informado / Não aplicável,IS = Identifier Splitting,I = Identificadores de código-fonte
+German Decompounding in a Difficult Corpus,,Europarl,N,Support vector Machine,T = Tradução Automática,"A = Alemão, I = Inglês","Frequency-Based
+Probability-Based
+Mutual Information
+Suport Vector Machine",Supervisionado,"CS = Compound Splitting, CSP = Compound Splitter",P = Palavras Compostas
+Compound decomposition in Dutch large vocabulary speech recognition,,Own Corpus,N,N,G = Geral,"I = Inglês, O = Outra",Data-driven,Não informado / Não aplicável,"CS = Compound Splitting, CSP = Compound Splitter",P = Palavras Compostas
+Web scale NLP: A case study on URL word breaking,,Microsoft N-gram service,N,N,G = Geral,I = Inglês,Bayesian Minimum Risk Framework,Não-supervisionado,"WSP = Word Splitting, WS = Word Segmentation",U = URL
+Determining immediate constituents of compounds in GermaNet,AC = Artigo de Conferencia,Germanet,N,N,O = Outra,"A = Alemão, I = Inglês",Morphological Analysis,Não informado / Não aplicável,CS = Compound Splitting,P = Palavras Compostas
+TRIS: A fast and accurate identifiers splitting and expansion algorithm,AC = Artigo de Conferencia,LUDISO = http://www.cs.loyola.edu/~binkley/ludiso/,N,N,ES = Engenharia de Software,I = Inglês,"Dictionary Transformations
+Identifier Transformation",Não informado / Não aplicável,IS = Identifier Splitting,I = Identificadores de código-fonte
+Evaluating compound splitters extrinsically with textual entailment,AC = Artigo de Conferencia,RTE-3 Dataset from PASCAL Recognising Textual Entailment Challenge,N,N,G = Geral,A = Alemão,"Recognizing Textual Entailment
+Lexical Overlap Hypothesis",,CS = Compound Splitting,P = Palavras Compostas
+German compound splitting using the compound productivity of morphemes,AC = Artigo de Conferencia,Giga Web Corpus,N,N,G = Geral,A = Alemão,"MA = Morphological Analysis
+MoA = Morpheme Analysis
+L = Lexicon",Não-supervisionado,CS = Compound Splitting,P = Palavras Compostas
+Helpful or not? an investigation on the feasibility of identifier splitting via CNN-BiLSTM-CRF,AC = Artigo de Conferencia,"Binkley dataset
+Jhotdraw dataset
+BT11
+Lynx","CNN = Convolutional Neural Network
+BiLSTM = Bidirectional Long Short-Term Memory Network
+CRF = Conditional Random Fields",N,ES = Engenharia de Software,I = Inglês,N,,IS = Identifier Splitting,I = Identificadores de código-fonte
+LINSEN: An efficient approach to split identifiers and expand abbreviations,AC = Artigo de Conferencia,Identifiers extracted from 24 C/C++ anda Java Opensource Systems,N,N,ES = Engenharia de Software,I = Inglês,"DT = Dictionaries of Terms = extracted from source code and computer science context
+EA = Expand Abreviation =  expand abreviation terms
+DTW = Dynamic Time Warping Algorithm = find near optmail matchings between identier's substrings and words in an English Dictionary",Não informado / Não aplicável,IS = Identifier Splitting,I = Identificadores de código-fonte
+Empirical Methods for Compound Splitting,AC = Artigo de Conferencia,"European Parliament Proceedings, consisting of 20 million words of German",N,N,T = Tradução Automática,"A = Alemão, I = Inglês","FBM = Frequency Based Metric
+TL = Translation Lexicon = establishes word alignment in the two languages",Não informado / Não aplicável,CS = Compound Splitting,P = Palavras Compostas
+Language-independent Compound Splitting with Morphological Operations,AC = Artigo de Conferencia,"Europarl Corpus
+WMT-07 Dataset - Workshop of Machine Translation 2007 dataset",N,N,T = Tradução Automática,"A = Alemão, I = Inglês, V = Várias","MA = Morphological Analysis
+MOBC = Morphological Operations learned from a Bilingual Corpus
+MC = Monolingual Corpora = to learn and filter the set of compound part candidate
+DP = Dynamic Programming = to find the optimal split sequence",Não informado / Não aplicável,CS = Compound Splitting,P = Palavras Compostas

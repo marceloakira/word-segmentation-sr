@@ -85,11 +85,11 @@
 	},
 	"filters": {
 		"F1": "published from 2014 to 2019",
-		"F2": "publication type: review",
-		"F3": "published from 2010 to 2019",
-		"F4": "search content in english",
-    "F5": "search content in portuguese",
-    "F6": "área de ciências da computação"
+		"F2": "search content in english",
+    "F3": "search content in portuguese",
+		"F4": "science computation area",
+    "F5": "from first 200 best ranked results",
+    "F6": "from web portals with relevant publication volume and with good evalution from users or simply ad-hoc assessment"
   },
   "grey literature": {
     "searchs": [
@@ -156,15 +156,15 @@
 			"S0": {
 				"input": "A2 R2 R3 R5 R6 R7 R29",
 				"filters": [],
-				"date of search": "A qualquer momento",
+				"date of search": "",
 				"number of results": 114,
 				"url": "F1",
 				"search string": "(\"compounding split\" OR \"compound splitting\") AND (\"NLP\" OR \"natural language processing\") -education -chemistry  -mechanical -biomedical -engineering -chinese"
       },
 			"S1": {
 				"input": "A8 A10 R29 R30 R31 R32 R33 R34 R35 R36 R37 R38 R39 R18 ...",
-				"filters": ["F3", "F4"],
-				"date of search": "2010-2019",
+				"filters": ["F1", "F2"],
+				"date of search": "",
 				"number of results": 57,
 				"url": "https://scholar.google.com.br/scholar?hl=en&as_sdt=0%2C5&as_ylo=2010&as_yhi=2019&q=%28%22natural+language+processing%22+OR+nlp%29+AND+%22word+segmentation%22+-chinese+-urdu+-thai+-vietnamese+-myanmar+-khmer+-arabic+-jobs+-tibetan+-medical+-japanese+-handwritten+-korean+-sentiment+-infant+-ocr+-bengali+-hindi+-speech+-xml+-network+-social+-audio&btnG=",
 				"search string": "(\"natural language processing\" OR nlp) AND \"word segmentation\" -chinese -urdu -thai -vietnamese -myanmar -khmer -arabic -jobs -tibetan -medical -japanese -handwritten -korean -sentiment -infant -ocr -bengali -hindi -speech -xml -network -social -audio"
